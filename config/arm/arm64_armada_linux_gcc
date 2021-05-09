@@ -1,0 +1,21 @@
+[binaries]
+c = 'aarch64-linux-gnu-gcc'
+cpp = 'aarch64-linux-gnu-cpp'
+ar = 'aarch64-linux-gnu-ar'
+as = 'aarch64-linux-gnu-as'
+strip = 'aarch64-linux-gnu-strip'
+pkgconfig = 'aarch64-linux-gnu-pkg-config'
+pcap-config = ''
+
+[host_machine]
+system = 'linux'
+cpu_family = 'aarch64'
+cpu = 'armv8-a'
+endian = 'little'
+
+[properties]
+implementer_id = '0x56'
+part_number = '0xd08'
+max_lcores = 16
+max_numa_nodes = 1
+numa = false
